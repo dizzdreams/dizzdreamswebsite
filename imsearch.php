@@ -22,7 +22,7 @@
 		<link rel="stylesheet" href="style/print.css?16-2-1-0" media="print" />
 		<link rel="stylesheet" href="style/style.css?16-2-1-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?16-2-1-0" media="screen" />
-		<link rel="stylesheet" href="pcss/imsearch.css?16-2-1-0-637820854458726506" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?16-2-1-0-637820862006441482" media="screen,print" />
 		<script src="res/jquery.js?16-2-1-0"></script>
 		<script src="res/x5engine.js?16-2-1-0" data-files-version="16-2-1-0"></script>
 		<script>
@@ -30,7 +30,7 @@
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?16-2-1-0-637820854458726506" type="image/png" />
+		<link rel="icon" href="favicon.png?16-2-1-0-637820862006431484" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -45,25 +45,7 @@
 					<div id="imStickyBarContainer">
 						<div id="imStickyBarGraphics"></div>
 						<div id="imStickyBar">
-							<div id="imStickyBarObjects"><div id="imStickyBar_imObjectTitle_02_wrapper" class="template-object-wrapper"><div id="imStickyBar_imCell_2" class="" > <div id="imStickyBar_imCellStyleGraphics_2"></div><div id="imStickyBar_imCellStyle_2" ><div id="imStickyBar_imObjectTitle_02"><span id ="imStickyBar_imObjectTitle_02_text" >Title</span > </div></div></div></div><div id="imStickyBar_imMenuObject_03_wrapper" class="template-object-wrapper"><div id="imStickyBar_imCell_3" class="" > <div id="imStickyBar_imCellStyleGraphics_3"></div><div id="imStickyBar_imCellStyle_3" ><div id="imStickyBar_imMenuObject_03"><div class="hamburger-button hamburger-component"><div><div><div class="hamburger-bar"></div><div class="hamburger-bar"></div><div class="hamburger-bar"></div></div></div></div><div class="hamburger-menu-background-container hamburger-component">
-	<div class="hamburger-menu-background menu-mobile menu-mobile-animated hidden">
-		<div class="hamburger-menu-close-button"><span>&times;</span></div>
-	</div>
-</div>
-<ul class="menu-mobile-animated hidden">
-	<li class=" imPage" data-link-paths=",/index.html,/">
-<div class="label-wrapper">
-<div class="label-inner-wrapper">
-		<a class="label" href="index.html">
-Home Page		</a>
-</div>
-</div>
-	</li></ul></div><script>
-x5engine.boot.push(function(){x5engine.initMenu('imStickyBar_imMenuObject_03',1000)});
-$(function () {$('#imStickyBar_imMenuObject_03 ul li').not('.imMnMnSeparator').each(function () {    var $this = $(this), timeout = 0, subtimeout = 0, width = 'none', height = 'none';        var submenu = $this.children('ul').add($this.find('.multiple-column > ul'));    $this.on('mouseenter', function () {        if($(this).parents('#imStickyBar_imMenuObject_03-menu-opened').length > 0) return;         clearTimeout(timeout);        clearTimeout(subtimeout);        $this.children('.multiple-column').show(0);        submenu.stop(false, false);        if (width == 'none') {             width = submenu.width();        }        if (height == 'none') {            height = submenu.height();            submenu.css({ overflow : 'hidden', height: 0});        }        setTimeout(function () {         submenu.css({ overflow : 'hidden'}).fadeIn(1).animate({ height: height }, 300, null, function() {$(this).css('overflow', 'visible'); });        }, 250);    }).on('mouseleave', function () {        if($(this).parents('#imStickyBar_imMenuObject_03-menu-opened').length > 0) return;         timeout = setTimeout(function () {         submenu.stop(false, false);            submenu.css('overflow', 'hidden').animate({ height: 0 }, 300, null, function() {$(this).fadeOut(0); });            subtimeout = setTimeout(function () { $this.children('.multiple-column').hide(0); }, 300);        }, 250);    });});});
-
-</script>
-</div></div></div></div>
+							<div id="imStickyBarObjects"></div>
 						</div>
 					</div>
 					<a class="imHidden" href="#imGoToCont" title="Skip the main menu">Go to content</a>
