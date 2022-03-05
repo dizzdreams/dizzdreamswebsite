@@ -22,7 +22,7 @@
 		<link rel="stylesheet" href="style/print.css?16-2-1-0" media="print" />
 		<link rel="stylesheet" href="style/style.css?16-2-1-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?16-2-1-0" media="screen" />
-		<link rel="stylesheet" href="pcss/imsearch.css?16-2-1-0-637820686397662410" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?16-2-1-0-637820758886856647" media="screen,print" />
 		<script src="res/jquery.js?16-2-1-0"></script>
 		<script src="res/x5engine.js?16-2-1-0" data-files-version="16-2-1-0"></script>
 		<script>
@@ -30,7 +30,7 @@
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?16-2-1-0-637820686397652413" type="image/png" />
+		<link rel="icon" href="favicon.png?16-2-1-0-637820758886846624" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -40,7 +40,7 @@
 				<div id="imPage">
 					<header id="imHeader">
 						<h1 class="imHidden">Search - dizzdreams on da web</h1>
-						<div id="imHeaderObjects"><div id="imHeader_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imHeader_imCell_1" class="" > <div id="imHeader_imCellStyleGraphics_1"></div><div id="imHeader_imCellStyle_1" ><div id="imHeader_imObjectTitle_01"><span id ="imHeader_imObjectTitle_01_text" >welcome!</span > </div></div></div></div><div id="imHeader_imObjectTitle_02_wrapper" class="template-object-wrapper"><div id="imHeader_imCell_2" class="" > <div id="imHeader_imCellStyleGraphics_2"></div><div id="imHeader_imCellStyle_2" ><div id="imHeader_imObjectTitle_02"><span id ="imHeader_imObjectTitle_02_text" >v1.0.0</span > </div></div></div></div></div>
+						<div id="imHeaderObjects"><div id="imHeader_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imHeader_imCell_1" class="" > <div id="imHeader_imCellStyleGraphics_1"></div><div id="imHeader_imCellStyle_1" ><div id="imHeader_imObjectTitle_01"><span id ="imHeader_imObjectTitle_01_text" >welcome!</span > </div></div></div></div><div id="imHeader_imObjectTitle_02_wrapper" class="template-object-wrapper"><div id="imHeader_imCell_2" class="" > <div id="imHeader_imCellStyleGraphics_2"></div><div id="imHeader_imCellStyle_2" ><div id="imHeader_imObjectTitle_02"><span id ="imHeader_imObjectTitle_02_text" >v1.0.1</span > </div></div></div></div></div>
 					</header>
 					<div id="imStickyBarContainer">
 						<div id="imStickyBarGraphics"></div>
@@ -51,11 +51,25 @@
 	</div>
 </div>
 <ul class="menu-mobile-animated hidden">
-	<li class=" imPage" data-link-paths=",/index.html,/">
+	<li class="imMnMnFirst imPage" data-link-paths=",/index.html,/">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
 		<a class="label" href="index.html">
 Home Page		</a>
+</div>
+</div>
+	</li><li class="imMnMnMiddle imPage" data-link-paths=",/page-5.html">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="page-5.html">
+Page 5		</a>
+</div>
+</div>
+	</li><li class="imMnMnLast imPage" data-link-paths=",/page-6.html">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="page-6.html">
+Page 6		</a>
 </div>
 </div>
 	</li></ul></div><script>
