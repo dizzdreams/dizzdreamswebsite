@@ -225,10 +225,7 @@ textarea { resize: none; }
 #media-query-to-js { position: absolute; display: none; }@media (min-width: 1150px) {
 	#media-query-to-js { width: 1150px; }
 }
-@media (max-width: 1149px) and (min-width: 720px) {
-	#media-query-to-js { width: 720px; }
-}
-@media (max-width: 719px) and (min-width: 480px) {
+@media (max-width: 1149px) and (min-width: 480px) {
 	#media-query-to-js { width: 480px; }
 }
 @media (max-width: 479px) {
